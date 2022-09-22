@@ -32,3 +32,5 @@
 
   let timon = document.getElementById('timon');
   timon.addEventListener('click', correctAnswer);
+
+  new cursoreffects.fairyDustCursor({colors: ["salmon","yellow", "red", "green"]});
