@@ -106,7 +106,7 @@ body {
   border-width: 2px;
   background-color: green;
   color: rgba(255, 255, 0, 0.885);
-  transition: 1s;
+  transition: 0.5s;
 }
 
 /* ------------------------------------------ HOMEPAGE */
