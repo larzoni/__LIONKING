@@ -1,4 +1,6 @@
-function showIt() {
+  // ANIMATIONS
+
+  function showIt() {
     document.getElementById("timon-img").style.visibility = "visible";
   }
   setTimeout("showIt()", 4000); // after 4 sec
@@ -12,6 +14,8 @@ function showIt() {
     document.getElementById("showitem3").style.visibility = "visible";
   }
   setTimeout("showIt3()", 7000); // after 7 sec
+
+  // POP UP'S
  
   function wrongAnswer() {
     let box = document.getElementById('pumba')
@@ -28,12 +32,3 @@ function showIt() {
 
   let timon = document.getElementById('timon');
   timon.addEventListener('click', correctAnswer);
-  
-  // function rightAnswer() {
-  //   let box = document.getElementById('timon')
-  //   alert('Wrong answer! You meant Timon I presume?');
-  // }
-  
-  // let box = document.getElementById('timon');
-  // box.addEventListener('click', rightAnswer);
-  
