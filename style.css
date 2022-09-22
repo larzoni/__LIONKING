@@ -109,6 +109,44 @@ body {
   transition: 0.5s;
 }
 
+@media only screen and (min-width: 900px) {
+  .timon-gif {
+    width: 15rem;
+  }
+
+  .timon-img {
+    width: 15rem;
+  }
+
+  .content-intro {
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 6px;
+    padding: 1rem;
+    display: block;
+    background-color: bisque;
+    margin: 1.5rem 10rem 0rem;
+  }
+
+  .content-intro p {
+    font-size: 1rem;
+  }
+
+  .content-intro--question {
+    padding: 1rem;
+    margin: 1rem 15rem;
+  }
+
+  .content-intro--nav {
+    justify-content: space-around;
+    margin: 1rem 10rem;
+  }
+
+  .content-intro--nav a {
+    font-size: 1.2rem;
+  }
+}
+
 /* ------------------------------------------ HOMEPAGE */
 
 /* ------------------------------------------ ABOUT THE MOVIE */
