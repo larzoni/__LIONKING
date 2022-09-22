@@ -1,0 +1,118 @@
+/* ------------------------------------------ ALL PAGES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Silkscreen", cursive;
+}
+/* ------------------------------------------ OPENING PAGE */
+
+.index {
+  position: fixed;
+  background-color: rgba(54, 35, 6, 0.956);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.index-content {
+  display: block;
+  background-color: rgba(1, 54, 101, 0);
+}
+
+/* Timon's animation */
+
+.timon-img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 10rem;
+}
+
+.timon-gif {
+  width: 10rem;
+  opacity: 0;
+  background-color: rgba(0, 255, 255, 0);
+  margin-left: 50%;
+  transform: translate(-50%, -0%);
+  animation-name: timon-gif;
+  animation-duration: 4s;
+}
+
+@keyframes timon-gif {
+  0% {
+    opacity: 1;
+    margin-left: 50%;
+  }
+
+  1% {
+    opacity: 1;
+    margin-left: 1%;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 50%;
+  }
+}
+
+/* Chat bubble & nav */
+
+.content-intro {
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.5rem;
+  display: block;
+  background-color: bisque;
+  margin: 1rem 2rem 0rem;
+}
+
+.content-intro p {
+  font-size: 0.8rem;
+  padding: 0.2rem;
+}
+
+.content-intro--question {
+  text-align: center;
+  background-color: antiquewhite;
+  display: block;
+  margin: 1rem 2.5rem 0.5rem 2.5rem;
+  padding: 0.2rem;
+  border-radius: 6px;
+}
+
+.content-intro--nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.content-intro--nav a {
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  width: 10rem;
+  padding: 0.8rem;
+  margin: 0.2rem 2rem;
+  background-color: rgb(255, 245, 63);
+  color: rgb(172, 28, 28);
+}
+
+.content-intro--nav a:hover {
+  border-style: dotted;
+  border-width: 2px;
+  background-color: green;
+  color: rgba(255, 255, 0, 0.885);
+  transition: 1s;
+}
+
+/* ------------------------------------------ HOMEPAGE */
+
+/* ------------------------------------------ ABOUT THE MOVIE */
+
+/* ------------------------------------------ ABOUT THE MUSIC */
+
+/* ------------------------------------------ ABOUT HIS UNCLE */
