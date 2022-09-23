@@ -19,7 +19,7 @@
  
   function wrongAnswer() {
     let box = document.getElementById('pumba')
-    alert('Wrong answer! You meant Timon I presume?');
+    alert('Oh! You must have missclicked. I think you meant Timon!');
   }
   
   let box = document.getElementById('pumba');
