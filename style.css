@@ -150,6 +150,32 @@ body {
 
 /* ------------------------------------------ HOMEPAGE */
 
+.homepage {
+  position: fixed;
+  background-color: rgba(24, 15, 2, 0.956);
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+.homepage-content--img {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -0%);
+}
+
+.homepage--content {
+  background-color: burlywood;
+  position: absolute;
+  width: 30rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 1rem;
+}
+
 /* ------------------------------------------ ABOUT THE MOVIE */
 
 /* ------------------------------------------ ABOUT THE MUSIC */
