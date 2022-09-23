@@ -157,7 +157,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
-.homepage-content--img {
+.homepage--gif {
   position: absolute;
   top: 0%;
   left: 50%;
@@ -174,6 +174,15 @@ body {
   text-align: center;
   font-size: 0.7rem;
   padding: 1rem;
+}
+
+.homepage--nav {
+  border-radius: 10px;
+  display: block;
+  background-color: brown;
+  color: black;
+  padding: 0.2rem;
+  margin: 0.5rem;
 }
 
 /* ------------------------------------------ ABOUT THE MOVIE */
