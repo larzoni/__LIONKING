@@ -4,27 +4,40 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>THE LION KING</title>
-    <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+    <link rel="stylesheet" href="homepage.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
   </head>
   <body>
-    <main class="homepage">
-      <img class="homepage--gif" src="/img/under-construction.gif" />
-      <div class="homepage--content">
-        <h1>Welcome to the King's Realm!</h1>
-        <h2>
-          Currently, he is away and this page is under construction.<br />
-          But you are welcome back very soon!
-          <br />
-          <a class="homepage--nav" href="/index.html">Take me back to Timon</a>
-        </h2>
+    <div class="banner">
+      <div class="banner-video">
+          <video src="/video/background.mp4" autoplay muted loop></video>
       </div>
-    </main>
-    <script src="script.js"></script>
+    <div class="wrapper">
+      <header class="header">
+        <h1>Welcome</h1>
+        <h3>Your adventure begins here</h3>
+        <h4>Hover over Simba to let him guide you!</h4>
+      </header>
+      <section class="content">
+        <img class="img" src="/img/simba.gif" />
+        <div class="dropdown">
+          <div class="dropdown-info">
+            <p>
+              Oh I just can't waiiiiit.. <br />Oh Hi! Sorry didn't see you
+              there. Welcome to the realm! What would you like to know about?
+            </p>
+          </div>
+          <nav class="dropdown-nav">
+            <a href="#">The Cast</a>
+            <a href="#">The Music</a>
+            <a href="#">Your Uncle</a>
+          </nav>
+        </div>
+      </section>
+    </div>
   </body>
 </html>
