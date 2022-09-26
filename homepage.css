@@ -6,8 +6,12 @@
 
 body {
   font-family: "Silkscreen", cursive;
+  background-image: url("/img/homepage-background.png");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
 }
-
+/*
 .banner {
   background-color: rgb(255, 255, 255);
   width: 100vw;
@@ -24,7 +28,7 @@ body {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-}
+}*/
 
 .wrapper {
   position: absolute;

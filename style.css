@@ -12,7 +12,7 @@ body {
 
 .index {
   position: fixed;
-  background-color: rgba(54, 35, 6, 0.956);
+  background-image: url("/img/index-background.jpeg");
   background-size: cover;
   width: 100vw;
   height: 100vh;
