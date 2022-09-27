@@ -76,6 +76,7 @@ article p {
 
 #mySimba {
   position: absolute;
+  display: none;
   font-size: 0.7rem;
   top: 65vh;
   left: 50vw;
