@@ -33,6 +33,11 @@ article p {
   justify-content: space-around;
 }
 
+.top-nav a {
+  color: blanchedalmond;
+  text-decoration: none;
+}
+
 .top-nav a:hover {
   color: red;
   background-color: beige;
@@ -70,6 +75,104 @@ article p {
 }
 
 #mySimba {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 65vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myNala {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myMufasa {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#mySarabi {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myScar {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myZazu {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myTimon {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+
+#myPumba {
   position: absolute;
   font-size: 0.7rem;
   top: 75vh;
