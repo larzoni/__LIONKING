@@ -44,8 +44,25 @@ body {
   color: rgb(54, 38, 8);
   font-size: 0.9rem;
   text-align: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   padding: 2rem 1rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  animation: blinking 2s infinite;
+}
+
+.header span {
+  animation: blinking 1s infinite;
+}
+
+.header h4 {
+  font-size: 0.8rem;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: brown;
 }
 
 .img {
@@ -71,7 +88,7 @@ body {
 .dropdown-info {
   text-align: center;
   background-color: rgb(255, 255, 255);
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
   margin: 0rem 0.5rem;
 }
@@ -83,13 +100,39 @@ body {
 }
 
 .dropdown-nav a {
-  background-color: antiquewhite;
+  color: green;
+  text-decoration: none;
+  background-color: rgba(245, 236, 207, 0.85);
   border-radius: 10px;
   width: 100%;
   text-align: center;
   padding: 0.5rem;
   margin: 0.5rem 0rem;
 }
+
+.dropdown-nav a:hover {
+  color: white;
+  background-color: rgb(171, 15, 15);
+  padding: 0.6rem;
+  transition: 0.5s;
+}
+
+/* HOW
+.footer {
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0);
+  position: fixed;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  margin-top: 90vh;
+}
+
+.footer p {
+  font-size: 0.5rem;
+  margin: 0.5rem;
+}
+*/
 
 /* ANIMATIONS */
 
