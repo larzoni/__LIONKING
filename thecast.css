@@ -1,15 +1,86 @@
-html {
-  font-size: 16px;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Silkscreen", cursive;
+  background-image: url("/img/background1.jpeg");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: rgb(255, 255, 255);
 }
 
-.box {
-  background-color: aquamarine;
-  width: 20rem;
-  height: 20rem;
+header {
+  width: 100%;
+  background-color: rgba(157, 164, 143, 0.403);
+  text-align: center;
+  padding: 1rem;
 }
 
-.box-active {
+.cast-flex {
+  color: brown;
+  position: absolute;
+  text-align: center;
+  background-color: rgba(167, 176, 150, 0.522);
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.cast-flex p {
+  font-size: 0.8rem;
+  color: brown;
   background-color: bisque;
-  width: 25rem;
-  height: 25rem;
+  padding: 0.9rem;
+  border-radius: 10px;
+}
+
+/*SIMBA*/
+.cast-flex-simba {
+  border-radius: 10px;
+  background-color: rgba(250, 128, 114, 0);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.cast-flex-simba img {
+  border-radius: 50%;
+  width: 100px;
+}
+.cast-simba-hidden {
+  background-color: rgba(250, 235, 215, 0);
+  display: none;
+  padding: 1rem;
+  text-align: center;
+}
+.cast-flex-simba:hover .cast-simba-hidden {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*NALA*/
+.cast-flex-nala {
+  border-radius: 10px;
+  background-color: rgba(250, 128, 114, 0);
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.cast-flex-nala img {
+  border-radius: 50%;
+  width: 100px;
+}
+.cast-nala-hidden {
+  background-color: rgba(250, 235, 215, 0);
+  display: none;
+  padding: 1rem;
+  text-align: center;
+}
+.cast-flex-nala:hover .cast-nala-hidden {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
 }

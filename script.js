@@ -35,12 +35,3 @@
 
   new cursoreffects.fairyDustCursor({colors: ["salmon","yellow", "red", "green"]});
 
-
-  /* THE CAST PAGE */
-  function clickBox () {
-    let box = document.getElementById('box');
-    box.classList.toggle('box-active'); /*adds a CSS class*/
-}
-
-let box = document.getElementById('box');
-box.addEventListener('click', clickBox);
