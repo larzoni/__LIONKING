@@ -19,12 +19,76 @@ header {
   padding: 1rem;
 }
 
+article p {
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.top-nav {
+  background-color: rgba(240, 248, 255, 0.308);
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.top-nav a:hover {
+  color: red;
+  background-color: beige;
+}
+
+.thecast-nav {
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.thecast-nav div {
+  margin: 0.5rem;
+  width: 20%;
+}
+
+.thecast-nav img {
+  background-color: rgba(80, 15, 15, 0.6);
+  padding: 0.5rem;
+  width: 4rem;
+  opacity: 0.7;
+}
+
+.thecast-nav img:hover {
+  opacity: 1;
+  background-color: rgb(10, 4, 4);
+}
+
+.thecast-nav h2 {
+  width: 5rem;
+  padding: 1rem;
+  font-size: 0.7rem;
+}
+
+#mySimba {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+/*
 .cast-flex {
   color: brown;
-  position: absolute;
+  width: 100%;
   text-align: center;
   background-color: rgba(167, 176, 150, 0.522);
-  flex-direction: row;
+  flex-direction: column;
   display: flex;
   align-items: center;
 }
@@ -37,7 +101,7 @@ header {
   border-radius: 10px;
 }
 
-/*SIMBA*/
+/*SIMBA
 .cast-flex-simba {
   border-radius: 10px;
   background-color: rgba(250, 128, 114, 0);
@@ -61,7 +125,7 @@ header {
   justify-content: space-around;
 }
 
-/*NALA*/
+/*NALA
 .cast-flex-nala {
   border-radius: 10px;
   background-color: rgba(250, 128, 114, 0);
@@ -84,3 +148,4 @@ header {
   flex-direction: row;
   justify-content: space-around;
 }
+*/
