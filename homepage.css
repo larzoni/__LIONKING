@@ -6,12 +6,11 @@
 
 body {
   font-family: "Silkscreen", cursive;
-  background-image: url("/img/homepage-background.png");
   width: 100vw;
   height: 100vh;
   background-size: cover;
 }
-/*
+
 .banner {
   background-color: rgb(255, 255, 255);
   width: 100vw;
@@ -19,16 +18,16 @@ body {
 }
 
 .banner-video {
+  position: fixed;
   width: 100vw;
   height: 100vh;
-  object-fit: cover;
 }
 
 .banner-video video {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
-}*/
+}
 
 .wrapper {
   position: absolute;
@@ -90,4 +89,24 @@ body {
   text-align: center;
   padding: 0.5rem;
   margin: 0.5rem 0rem;
+}
+
+/* ANIMATIONS */
+
+@keyframes blinking {
+  0% {
+    color: rgb(255, 170, 12);
+  }
+  47% {
+    color: rgb(113, 53, 3);
+  }
+  62% {
+    color: red;
+  }
+  97% {
+    color: rgb(108, 0, 0);
+  }
+  100% {
+    color: rgb(241, 255, 139);
+  }
 }

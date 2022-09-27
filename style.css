@@ -1,4 +1,3 @@
-/* ------------------------------------------ ALL PAGES */
 * {
   padding: 0;
   margin: 0;
@@ -8,11 +7,10 @@
 body {
   font-family: "Silkscreen", cursive;
 }
-/* ------------------------------------------ OPENING PAGE */
 
 .index {
   position: fixed;
-  background-image: url("/img/index-background.jpeg");
+  background-image: url("/img/background2.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
@@ -109,7 +107,7 @@ body {
   transition: 0.5s;
 }
 
-/* Media query for opening page  */
+/* Media query */
 @media only screen and (min-width: 900px) {
   .timon-gif {
     width: 15rem;
@@ -147,11 +145,3 @@ body {
     font-size: 1.2rem;
   }
 }
-
-/* ------------------------------------------ HOMEPAGE */
-
-/* ------------------------------------------ ABOUT THE MOVIE */
-
-/* ------------------------------------------ ABOUT THE MUSIC */
-
-/* ------------------------------------------ ABOUT HIS UNCLE */
