@@ -69,6 +69,7 @@ article p {
 .thecast-nav img:hover {
   opacity: 1;
   background-color: rgb(10, 4, 4);
+  width: 5rem;
 }
 
 .thecast-nav h2 {
@@ -96,155 +97,30 @@ article p {
   display: block;
 }
 
-/*
-#myMufasa {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
+@media only screen and (min-width: 800px) {
+  .cast-info {
+    font-size: 1rem;
+    top: 70vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    padding: 3rem;
+  }
 
-#mySarabi {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
+  .thecast-nav img {
+    background-color: rgba(80, 15, 15, 0.6);
+    padding: 0.5rem;
+    width: 7rem;
+    opacity: 0.7;
+  }
 
-#myScar {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
+  .thecast-nav img:hover {
+    opacity: 1;
+    background-color: rgb(10, 4, 4);
+    width: 9rem;
+  }
 
-#myZazu {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
+  header h1 {
+    font-size: 3rem;
+  }
 }
-
-#myTimon {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
-
-#myPumba {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
-*/
-/*
-.cast-flex {
-  color: brown;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(167, 176, 150, 0.522);
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-
-.cast-flex p {
-  font-size: 0.8rem;
-  color: brown;
-  background-color: bisque;
-  padding: 0.9rem;
-  border-radius: 10px;
-}
-
-/*SIMBA
-.cast-flex-simba {
-  border-radius: 10px;
-  background-color: rgba(250, 128, 114, 0);
-  padding: 0.5rem;
-  margin: 0.5rem;
-}
-.cast-flex-simba img {
-  border-radius: 50%;
-  width: 100px;
-}
-.cast-simba-hidden {
-  background-color: rgba(250, 235, 215, 0);
-  display: none;
-  padding: 1rem;
-  text-align: center;
-}
-.cast-flex-simba:hover .cast-simba-hidden {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-/*NALA
-.cast-flex-nala {
-  border-radius: 10px;
-  background-color: rgba(250, 128, 114, 0);
-  padding: 0.5rem;
-  margin: 0.5rem;
-}
-.cast-flex-nala img {
-  border-radius: 50%;
-  width: 100px;
-}
-.cast-nala-hidden {
-  background-color: rgba(250, 235, 215, 0);
-  display: none;
-  padding: 1rem;
-  text-align: center;
-}
-.cast-flex-nala:hover .cast-nala-hidden {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
-}
-*/
