@@ -142,8 +142,11 @@ body {
 @media only screen and (min-width: 550px) {
   .header h1 {
     font-size: 3.5rem;
+    margin: 1rem;
   }
-
+  .content {
+    margin: 3rem;
+  }
   .img {
     width: 10rem;
   }
