@@ -74,23 +74,9 @@ article p {
   font-size: 0.7rem;
 }
 
-#mySimba {
+.cast-info {
   position: absolute;
   display: none;
-  font-size: 0.7rem;
-  top: 65vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-}
-
-#myNala {
-  position: absolute;
   font-size: 0.7rem;
   top: 75vh;
   left: 50vw;
@@ -103,6 +89,26 @@ article p {
   margin-top: 20px;
 }
 
+/* #myNala {
+  position: absolute;
+  font-size: 0.7rem;
+  top: 75vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: brown;
+  background-color: lightblue;
+  margin-top: 20px;
+  display: none;
+} */
+
+.visible {
+  display: block;
+}
+
+/*
 #myMufasa {
   position: absolute;
   font-size: 0.7rem;
@@ -186,6 +192,7 @@ article p {
   background-color: lightblue;
   margin-top: 20px;
 }
+*/
 /*
 .cast-flex {
   color: brown;
