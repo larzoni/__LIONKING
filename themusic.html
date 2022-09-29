@@ -5,9 +5,91 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Music</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="themusic.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <script src="script.js"></script>
+    <header><h1 class="music-title">The Music</h1></header>
+    <nav class="top-nav">
+      <div class="top-nav-opt1">
+        <a href="/homepage.html" alt="the home page">Homepage</a>
+      </div>
+      <div class="top-nav-opt2">
+        <a href="/theuncle.html" alt="the music page">The Music</a>
+      </div>
+    </nav>
+    <section class="music-main-content">
+      <p>
+        Click on the Movie or the Sega Game cover to listen to that version of
+        the same song!
+      </p>
+      <div class="content-song">
+        <h2>The Circle Of Life</h2>
+        <span class="content-img-flexbox">
+          <img id="imgMovieCircle" src="/img/Movie.jpeg" alt="Play Button" />
+          <audio
+            id="audioMovieCircle"
+            src="/video/Movie Circle of life.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+          <img id="imgGameCircle" src="/img/Game.png" alt="Play Button" />
+          <audio
+            id="audioGameCircle"
+            src="video/Sega Circle of life.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+        </span>
+      </div>
+      <div class="content-song">
+        <h2>Hakuna Matata</h2>
+        <span class="content-img-flexbox">
+          <img id="imgMovieHakuna" src="/img/Movie.jpeg" alt="Play Button" />
+          <audio
+            id="audioMovieHakuna"
+            src="/video/Movie Hakuna Matata.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+          <img id="imgGameHakuna" src="/img/Game.png" alt="Play Button" />
+          <audio
+            id="audioGameHakuna"
+            src="/video/Sega Hakuna Matata.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+        </span>
+      </div>
+      <div class="content-song">
+        <h2>Be Prepared</h2>
+        <span class="content-img-flexbox">
+          <img id="imgMoviePrepared" src="/img/Movie.jpeg" alt="Play Button" />
+          <audio
+            id="audioMoviePrepared"
+            src="/video/Movie Be Prepared.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+          <img id="imgGamePrepared" src="/img/Game.png" alt="Play Button" />
+          <audio
+            id="audioGamePrepared"
+            src="/video/Sega Be Prepared.mp3"
+            type="audio/mp3"
+          >
+            Your browser does not support the audio element.
+          </audio>
+        </span>
+      </div>
+    </section>
+    <script src="themusic.js"></script>
   </body>
 </html>
