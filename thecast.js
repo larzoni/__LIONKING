@@ -1,21 +1,3 @@
-// function simbaInfo() {
-//     var x = document.getElementById("mySimba");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
-//   function nalaInfo() {
-//     var x = document.getElementById("myNala");
-//     if (x.style.display === "none") {
-//       x.style.display = "block";
-//     } else {
-//       x.style.display = "none";
-//     }
-//   }
-
 function toggleSimba() {
   document.querySelectorAll('.cast-info').forEach(el => {
     el.classList.remove('visible');
@@ -27,3 +9,16 @@ function toggleSimba() {
 
 let simbaButton = document.getElementById('simbaButton');
 simbaButton.addEventListener('click', toggleSimba);
+
+
+function toggleNala() {
+  document.querySelectorAll('.cast-info').forEach(el => {
+    el.classList.remove('visible');
+  });
+
+  let nalaInfo = document.getElementById('myNala');
+  nalaInfo.classList.toggle('visible');
+}
+
+let nalaButton = document.getElementById('nalaButton');
+nalaButton.addEventListener('click', toggleNala);
