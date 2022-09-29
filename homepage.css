@@ -136,3 +136,28 @@ body {
     color: rgb(241, 255, 139);
   }
 }
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 550px) {
+  .header h1 {
+    font-size: 3.5rem;
+  }
+
+  .img {
+    width: 10rem;
+  }
+  .dropdown-nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .dropdown-nav a {
+    color: green;
+    text-decoration: none;
+    background-color: rgba(245, 236, 207, 0.85);
+    border-radius: 10px;
+    text-align: center;
+    padding: 1rem;
+    margin: 0.5rem 1rem;
+  }
+}
