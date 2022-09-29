@@ -43,6 +43,9 @@ article p {
   background-color: beige;
 }
 
+.thecast-content {
+  background-color: rgba(240, 248, 255, 0.029);
+}
 .thecast-nav {
   display: flex;
   text-align: center;
@@ -77,8 +80,8 @@ article p {
 .cast-info {
   position: absolute;
   display: none;
-  font-size: 0.7rem;
-  top: 75vh;
+  font-size: 0.6rem;
+  top: 80vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -88,21 +91,6 @@ article p {
   background-color: lightblue;
   margin-top: 20px;
 }
-
-/* #myNala {
-  position: absolute;
-  font-size: 0.7rem;
-  top: 75vh;
-  left: 50vw;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 2rem;
-  text-align: center;
-  color: brown;
-  background-color: lightblue;
-  margin-top: 20px;
-  display: none;
-} */
 
 .visible {
   display: block;
