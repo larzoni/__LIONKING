@@ -79,3 +79,8 @@ section p {
   color: rgb(255, 255, 255);
   width: 60%;
 }
+
+.chatbubble-button:hover {
+  background-color: yellow;
+  color: red;
+}
