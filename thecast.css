@@ -82,7 +82,7 @@ article p {
   position: absolute;
   display: none;
   font-size: 0.6rem;
-  top: 80vh;
+  top: 75vh;
   left: 50vw;
   transform: translate(-50%, -50%);
   width: 100%;
@@ -100,7 +100,7 @@ article p {
 @media only screen and (min-width: 800px) {
   .cast-info {
     font-size: 1rem;
-    top: 70vh;
+    top: 80vh;
     left: 50vw;
     transform: translate(-50%, -50%);
     width: 80%;

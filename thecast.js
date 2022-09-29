@@ -104,3 +104,6 @@ function togglePumba() {
 
 let pumbaButton = document.getElementById('pumbaButton');
 pumbaButton.addEventListener('click', togglePumba);
+
+// CURSOR
+new cursoreffects.fairyDustCursor({colors: ["salmon","yellow", "red", "green"]});

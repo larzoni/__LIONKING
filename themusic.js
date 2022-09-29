@@ -38,3 +38,6 @@ document.getElementById("imgGamePrepared").onclick = function() {
     if (audio.paused) audio.play();
     else audio.pause();
 };
+
+// CURSOR
+new cursoreffects.fairyDustCursor({colors: ["salmon","yellow", "red", "green"]});

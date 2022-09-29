@@ -43,53 +43,35 @@ section p {
   background-color: beige;
 }
 
-.music-main-content {
+.chatbubble {
+  border-radius: 10px;
+  padding: 2rem;
+  font-size: 2rem;
   text-align: center;
-  margin: 1rem;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+  color: black;
+  width: 80%;
 }
 
-.content-song {
-  color: rgb(225, 244, 130);
-  padding: 1rem;
-
-  animation: blinking 2s infinite;
-}
-.content-img-flexbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.chatbubble:hover {
+  background-color: red;
+  color: white;
 }
 
-.content-img-flexbox img {
-  width: 20%;
-}
-
-/* ANIMATIONS */
-
-@keyframes blinking {
-  0% {
-    color: rgb(255, 239, 12);
-  }
-  47% {
-    color: rgb(113, 53, 3);
-  }
-  62% {
-    color: red;
-  }
-  97% {
-    color: rgb(255, 255, 255);
-  }
-  100% {
-    color: rgb(241, 255, 139);
-  }
-}
-
-@media only screen and (min-width: 800px) {
-  header h1 {
-    font-size: 3rem;
-  }
-  section p {
-    font-size: 1.7rem;
-    padding: 2rem;
-  }
+.chatbubble-button {
+  background-color: brown;
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  width: 40%;
 }
